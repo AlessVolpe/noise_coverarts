@@ -1,8 +1,8 @@
 import argparse
 import os
 
-from img_scrambler import scramble_img
-from spectrogram import plot_spectrogram
+from src.scrambler.img_scrambler import scramble_img
+from src.plotter.spectrogram import plot_spectrogram
 
 
 def main():
