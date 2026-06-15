@@ -2,7 +2,9 @@ import numpy as np
 
 from matplotlib import pyplot as plt
 
-def plot_spectrogram(audio_path: str, title: str, sr: int = 32000, n_mels: int = 128, fmax: int = 16000, cmap: str = 'magma'):
+
+def plot_spectrogram(audio_path: str, title: str, sr: int = 32000, n_mels: int = 128, fmax: int = 16000,
+                     cmap: str = 'magma'):
     import librosa
     y, sr = librosa.load(audio_path, sr=sr, mono=True)
     fig, ax = plt.subplots(nrows=1, ncols=1, sharex=True)

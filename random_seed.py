@@ -1,4 +1,6 @@
-import random, string
+import random
+import string
+
 
 def random_word(minlength: int, maxlength: int) -> str:
     letters = string.ascii_lowercase

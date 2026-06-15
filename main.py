@@ -1,8 +1,9 @@
 import argparse
 import os
 
-from spectrogram import plot_spectrogram
 from img_scrambler import scramble_img
+from spectrogram import plot_spectrogram
+
 
 def main():
     parser = argparse.ArgumentParser(description='Generate a spectrogram from an audio file, then scramble it.')
